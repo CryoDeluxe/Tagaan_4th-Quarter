@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@500&display=swap" rel="stylesheet">
+		<link rel ="stylesheet" href = "style.css">
+		<title> TAGAAN - Wind Energy </title>
+	</head>
+	<body class = "homebg">
+		<center>
+			<h1 class = "title3"> WELCOME NETIZEN! </h1>
+			<h2 class = "title4"> Wanna learn more about Wind Energy? </h2>
+			<h3 class = "title5">Input your name below to proceed:</h3>
+			<input type = "text" id = "name" class = "input"> 
+			<input type = "submit" onclick = "goLoad()">
+		</center>
+	</body>
+	<script>
+	function goLoad() {
+	var name = document.getElementById("name").value;
+		alert("Greetings" + " " + name + "!");
+		alert("You will be sent to another page. Prepare to blow your mind!");
+		window.open("index2.html");
+	}
+	</script>
+</html>
+		
